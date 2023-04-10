@@ -7,14 +7,14 @@ import requests
 def get_data(url):
     response = requests.get(url)
     soup = BeautifulSoup(response.text, 'lxml')
-    table_of_contents = soup.find("div", id="toc")
+    table_of_contents = soup.find("div", id="vector-toc")
     headings = table_of_contents.find_all("li")
     data = []
     for heading in headings:
-        heading_text = heading.find("span", class_="toctext").text
-        heading_number = heading.find("span", class_="tocnumber").text
+        heading_text = heading.find("div", class_="vector-toc-text").text
+        # heading_number = heading.find("span", class_="vector-toc-number").text
         data.append({
-            'heading_number': heading_number,
+            # 'heading_number': heading_number,
             'heading_text': heading_text,
         })
     return data

@@ -1,29 +1,60 @@
 heading_number,heading_text
-1,History
-2,Design philosophy and features
-3,Syntax and semantics
-3.1,Indentation
-3.2,Statements and control flow
-3.3,Expressions
-3.4,Methods
-3.5,Typing
-3.6,Arithmetic operations
-4,Programming examples
-5,Libraries
-6,Development environments
-7,Implementations
-7.1,Reference implementation
-7.2,Other implementations
-7.3,Unsupported implementations
-7.4,Cross-compilers to other languages
-7.5,Performance
-8,Development
-9,API documentation generators
-10,Naming
-11,Uses
-12,Languages influenced by Python
-13,See also
-14,References
-14.1,Sources
-15,Further reading
-16,External links
+,(Top)
+,"
+1History"
+,"
+2Design philosophy and features"
+,"
+3Syntax and semantics"
+,"
+3.1Indentation"
+,"
+3.2Statements and control flow"
+,"
+3.3Expressions"
+,"
+3.4Methods"
+,"
+3.5Typing"
+,"
+3.6Arithmetic operations"
+,"
+4Programming examples"
+,"
+5Libraries"
+,"
+6Development environments"
+,"
+7Implementations"
+,"
+7.1Reference implementation"
+,"
+7.2Other implementations"
+,"
+7.3Unsupported implementations"
+,"
+7.4Cross-compilers to other languages"
+,"
+7.5Performance"
+,"
+8Development"
+,"
+9API documentation generators"
+,"
+10Naming"
+,"
+11Popularity"
+,"
+12Uses"
+,"
+13Languages influenced by Python"
+,"
+14See also"
+,"
+15References"
+,"
+15.1Sources"
+,"
+16Further reading"
+,"
+17External links"
