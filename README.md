@@ -1,1 +1,3 @@
-# Python_Scraping_Sample1
+install requests
+install bs4
+install lxml
